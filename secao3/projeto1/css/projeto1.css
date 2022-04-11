@@ -5,7 +5,6 @@ body{
 }
 
 
-
 header .texto-header{
     text-align: center;
     color: white;
@@ -53,8 +52,6 @@ nav ul li a:hover{
 }
 
 
-
-
 main{
     width: 80%;
     margin: auto;
@@ -70,20 +67,26 @@ main{
     padding: 10px 5px;
     margin: 0px;
 }
-
-/* .bloco-inteiro{
+.bloco-inteiro{
     display: flex;
+    padding: 10px;
 }
 .blocos{
-    margin: 15px 30px;
-    width: 31%;
+    padding: 15px;
+    margin: 10px;
+}
+.blocos img{
+    display: block;
 }
 .blocos p{
-    background-color: aquamarine;
+    background-color: gray;
+    padding: 20px;
     margin: 0px;
-    padding: 10px;
-} */
-
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
 
 
 footer{
