@@ -1,0 +1,106 @@
+#global{
+    
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(28, 7, 136);
+    height: 70px;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+header img{
+    display: inline-block;
+    margin: 10px 0px 0px 30px;
+}
+nav{
+    display: inline-block;
+}
+nav ul{
+    position: absolute;
+    margin: 0px;
+    right: 40px;
+    top: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: unset;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: white;
+    border: solid 1px white;
+    background-color: black
+}
+
+
+.banner{
+    background-image: url(../imagens/topo.jpg);
+    height: 600px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: left;
+}
+
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+.primeira-parte{
+    margin-top: 80px;
+    text-align: center;
+}
+.primeira-parte h1{
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+.primeira-parte p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;;
+    letter-spacing: 1.1px;
+}
+.primeira-parte a{
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: unset;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: transparent solid 1px;
+}
+.primeira-parte a:hover{
+    background-color: rgb(193, 193, 193);
+    color: black;
+    border: black solid 1px;
+}
+
+.bloco-inteiro{
+    margin-top: 10px;
+    display: flex;
+}
+.bloco{
+    margin: 20px 10px;
+    text-align: center;
+}
+.bloco h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
