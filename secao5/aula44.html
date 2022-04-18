@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas - Mão de Massa</title>
+            <style>
+                li ul{
+                    height: 0;
+                   overflow: hidden;
+                    transition: height .5s linear;
+                }
+                li:hover ul{
+                    height: 50px;
+                }
+            </style>
+</head>
+<body>
+    <h1>Listas</h1>
+        <ul>
+            <li>Ponto A</li>
+            <li>Ponto B</li>
+            <li>Ponto C</li>
+        </ul>
+
+    <h1>Listas Aninhadas</h1>
+        <ul>
+            <li>Ponto A</li>
+            <li>Ponto B
+                <ul>
+                    <li>Ponto B1</li>
+                    <li>Ponto B2</li>
+                </ul>
+            </li>
+            <li>Ponto C</li>
+        </ul>
+    
+    <h1>Listas de Definição</h1>
+        <dl> 
+            <dt>Titulo</dt>
+            <dd>SubTitulo</dd>
+        </dl>
+        <hr>
+        <dl> 
+            <dt>Titulo</dt>
+            <dd>SubTitulo</dd>
+            <dd>SubTitulo</dd>
+            <dd>Subtitulo</dd>
+        </dl>
+
+</body>
+</html>
