@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas - Praticando</title>
+            <style>
+                caption{
+                    border: solid 1px black;
+                    padding: 15px;
+                    font: italic 17px arial;
+                    background-color: rgb(233, 231, 231);
+                }
+                table{
+                    border: solid 1px black;
+                    border-collapse: collapse;
+                    font: normal 17px arial;
+                }
+                table td , th{
+                    border: solid 1px black;
+                    padding: 10px;
+                    text-align: center;
+                    width: 150px;
+                }
+                table thead{
+                    text-transform: uppercase;
+                }
+            </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Tabela Preço de Cursos</caption>
+            <thead>
+                <tr>
+                    <th>Area</th>
+                    <th>Curso</th>
+                    <th>Investimento</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Valores sujeitos a alterações</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Desginer</td>
+                    <td>InDesginer</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    
+                    <td>Photoshop</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    
+                    <td>Illustrator</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Development</td>
+                    <td>Front</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+                <tr>
+                    <td>Back-End</td>
+                    <td>R$ 1.000,00</td>
+                </tr>
+            </tbody>
+    </table>
+
+
+</body>
+</html>
