@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+        <style>
+            form{
+                margin: auto;
+                width: 300px;
+                border: solid 1px gray;
+                padding: 10px;
+            }
+            form h2{
+                text-align: center;
+                font: 25px normal arial;
+                color: blue;
+                border-bottom: 1px blue solid;
+                margin: 20px;
+            }
+            label{
+                display: block;
+                margin-bottom: 5px;
+            }
+            input{
+                width: 90%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+            input[type="submit"]{
+                width: 93%;
+            }
+            label[for="acesso-logado"]{
+                display: inline-block;
+                margin: 0px;
+                font: arial 18px normal;
+            }
+            input[type="checkbox"]{
+                margin: 10px 5px 20px 0px;
+                width: 10px;
+            }
+            form p{
+                display: inline-block;
+            }
+            form a{
+                border: solid 1px black;
+                padding: 5px;
+                background-color: white;
+                color: blue;
+                text-decoration: unset;
+            }
+            .form-baixo{
+                background-color: gray;
+            }
+        </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="" method="post">
+        <h2>Login</h2>
+
+        <label for="acesso-email">Seu e-mail:</label>
+            <input type="email" id="acesso-email" name="email">
+        <label for="acesso-senha">Sua senha</label>
+            <input type="password" id="acesso-senha" name="senha">
+            <label for="acesso-logado"><input type="checkbox" id="acesso-logado">Manter-me logado</label>
+                <input type="submit" value="Logar">
+                <div class="form-baixo">
+                    <p>Ainda não tem conta</p>
+                    <a href="#">Cadastre-se</a>
+                </div>
+    </form>
+
+
+
+</body>
+</html>

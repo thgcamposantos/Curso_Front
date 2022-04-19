@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+        <style>
+            form{
+                width: 300px;
+            }
+            input , label{
+                display: block;
+                margin: 10px 0px 5px;
+            }
+            input{
+                padding: 5px;
+                width: 95%;
+            }
+            label{
+                text-transform: uppercase;
+                font: normal 15px arial;
+            }
+            input[type=submit]{
+                width: 100%;
+            }
+            legend{
+                font: 20px normal arial;
+            }
+        </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Login para usuário</legend>
+            <label for="user">Usuário: </label>
+                <input type="text" id="user" name="usuario">
+            <label for="pass">Senha: </label>
+                <input type="password" id="pass" name="senha">
+                <input type="submit" value="ENTRAR">
+        </fieldset>
+    </form>
+
+
+
+</body>
+</html>

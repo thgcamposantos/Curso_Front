@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+            <style>
+                form{
+                    margin: 50px auto;
+                    width: 250px;
+                }
+                label{
+                    margin: 20px 0px;
+                }
+                input{
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    padding: 5px;
+                    margin: 10px 0px 15px;
+                    display: block;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                input[type='submit']{
+                    width: 100%;
+                    border: solid 1px black;
+                    padding: 9px;
+                }
+            </style>
+</head>
+<body>
+    
+
+    <form action="#" method="post">
+        <fieldset>
+            <label for="user">Digite seu usuário: </label>
+                <input type="text" id="user" name="nome-usuario">
+            <label for="senha">Digite a senha: </label>
+                <input type="password" id="senha" name="senha-usuario">
+                <input type="submit" value="Logar">
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
