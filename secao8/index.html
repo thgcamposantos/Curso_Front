@@ -8,7 +8,7 @@
 </head>
 <body>
         <header class="main-header">
-            <a href="index.html" class="main-header-perfil" target="_blanck" title="Thiago campos dos santos"><img src="" alt="foto de perfil"></a>
+            <a href="index.html" class="main-header-perfil" target="_blanck" title="Thiago campos dos santos"><img src="fulls/avatar.jpg" alt="foto de perfil"></a>
                 <h1>Tarabalhos e groselhas de <br><strong>Thiago Campos dos santos</strong><br>um zé ninguém qualquer<br>Retirado de <a href="http://google.com" class="main-header-link-texto" title="Link para o google" target="_blank">algum link</a></h1>
         </header>
 
@@ -94,86 +94,142 @@
             <!--  -->
 
             <section class="main-content-section section-quarto">
-                <h3 class="title-section">Elements</h3>
+                <div class="section-quarto-bloco bloco-elements">
+                    <h3 class="title-section">Elements</h3>
                 
-                <h4 class="subtitle-section">text</h4>
-                <p class="text-content-section">Lorem ipsum dolor sit amet consectetur adipisicingelit. Nulla eligendi voluptatibus.</p>
+                    <h4 class="subtitle-section">text</h4>
+                    <p class="text-content-section">Lorem ipsum dolor sit amet consectetur adipisicingelit. Nulla eligendi voluptatibus.</p>
 
-                <q cite="http://google.com">
-                    Esta é uma citação tirada da Mozilla Developer Center.
-                </q>
+                    <q cite="http://google.com">
+                        Esta é uma citação tirada da Mozilla Developer Center.
+                    </q>
 
-                <code>
-                    &lt;h1&gt;Isso é um título&lt;/h1&gt;
-                </code>
+                    <code>
+                        &lt;h1&gt;Isso é um título&lt;/h1&gt;
+                    </code>
 
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-                <ol>
-                    <li>Item</li>
-                    <li>Item</li>
-                    <li>Item</li>
-                </ol>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                    <ol>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                    </ol>
+                </div>
 
-                <h4 class="subtitle-section">Action</h4>
-                <p><a href="#" title="Veja mais" class="button-generico">Default</a></p>
-                <p><a href="#" title="Veja" class="button-generico">Veja</a></p>
+                <div class="section-quarto-bloco bloco-action">
+                    <h4 class="subtitle-section">Action</h4>
+                    <p><a href="#" title="Veja mais" class="button-generico">Default</a></p>
+                    <p><a href="#" title="Veja" class="button-generico">Veja</a></p>
+                </div>
+
+                <div class="section-quarto-bloco bloco-table">
+                    <h4 class="subtitle-section">Table</h4>
+                    <p class="text-content-section">Default</p>
+
+                    <table class="table-normal">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2"></td>
+                                <td>100.0</td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr>
+                                <td>Item One</td>
+                                <td>Antes turpis aliquet portitor</td>
+                                <td>29.99</td>
+                            </tr>
+                            <tr>
+                                <td>Item Two</td>
+                                <td>Antes turpis aliquet portitor</td>
+                                <td>29.99</td>
+                            </tr>
+                            <tr>
+                                <td>Item Three</td>
+                                <td>Antes turpis aliquet portitor</td>
+                                <td>29.99</td>
+                            </tr>
+                            <tr>
+                                <td>Item Four</td>
+                                <td>Antes turpis aliquet portitor</td>
+                                <td>29.99</td>
+                            </tr>
+                            <tr>
+                                <td>Item Five</td>
+                                <td>Antes turpis aliquet portitor</td>
+                                <td>29.99</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="section-quarto-bloco bloco-form">
+                    <h4 class="subtitle-section">form</h4>
+                        <form action="#" method="post">
+                            <input type="text" placeholder="Name" name="nome-usuario">
+                                <input type="email" placeholder="email" name="email-usuario">
+                                    <select name="categoria" id="">
+                                        <option value="">Escolha</option>
+                                        <option value="Facebook">Facebook</option>
+                                        <option value="Instagram">Instagram</option>
+                                        <option value="beReal">beReal</option>
+                                        <option value="Twitter">Twitter</option>
+                                    </select>
+
+                                    <label><input type="checkbox" name="facilidade" value="Nivel1">Nível 1</label>
+                                    <label><input type="checkbox" name="facilidade"  value="Nivel2">Nível 2</label>
+                                    <label><input type="checkbox" name="facilidade"  value="Nivel3">Nível 3</label>
+
+                                    <label><input type="radio" name="sexo" value="masc">Masculino</label>
+                                    <label><input type="radio" name="sexo" value="femi">feminino</label>
+
+                                    <textarea placeholder="Digite sua mensagem" name="texto-msg" cols="30" rows="10" style="resize: unset;">
+
+                                    </textarea>
+
+                                    <input type="submit" value="Send Message">
+                                    <input type="reset" value="Reset">
+                        </form>
+                </div>
+
+                <div class="section-quarto-bloco bloco-image">
+                    <h4 class="subtitle-section">Image</h4>
+                        <div class="galeria-img">
+                            <img src="fulls/01.jpg" alt="">
+                        </div>
+                        <div class="galeria-img-thumb">
+                            <img src="thumbs/01.jpg" alt="">
+                            <img src="thumbs/01.jpg" alt="">
+                            <img src="thumbs/01.jpg" alt="">
+                            <img src="thumbs/01.jpg" alt="">
+                            <img src="thumbs/01.jpg" alt="">
+                            <img src="thumbs/01.jpg" alt="">
+                        </div>
+                </div>
+
+                <div class="section-quarto-bloco bloco-left">
+                    <h4 class="subtitle-section">Left &amp; Right</h4>
+
+                    <p><img src="fulls/avatar.jpg" alt="avatar" id="avatar-esquerdo"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, numquam? Vitae animi neque quis! Quibusdam ducimus autem rem, doloribus eum debitis in repellendus? Aut, quos? Et molestiae excepturi cum adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad in doloremque totam molestias unde repellat earum alias autem excepturi doloribus odio, deleniti, dolor illum odit libero eius esse dolorum nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet dolore iste debitis odio doloremque ut architecto. Quia dolorem quas voluptatibus odit sint quam obcaecati commodi voluptas similique, sequi consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores eveniet a. Veritatis, provident. Pariatur iusto quos distinctio omnis iste nulla eveniet ab adipisci voluptatem reprehenderit magni, numquam expedita fugit!</p>
+                    <p><img src="fulls/avatar.jpg" alt="avatar" id="avatar-direito"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, numquam? Vitae animi neque quis! Quibusdam ducimus autem rem, doloribus eum debitis in repellendus? Aut, quos? Et molestiae excepturi cum adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad in doloremque totam molestias unde repellat earum alias autem excepturi doloribus odio, deleniti, dolor illum odit libero eius esse dolorum nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, amet dolore iste debitis odio doloremque ut architecto. Quia dolorem quas voluptatibus odit sint quam obcaecati commodi voluptas similique, sequi consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores eveniet a. Veritatis, provident. Pariatur iusto quos distinctio omnis iste nulla eveniet ab adipisci voluptatem reprehenderit magni, numquam expedita fugit!</p>
+                </div>
             
-                <h4 class="subtitle-section">Table</h4>
-                <p class="text-content-section">Default</p>
-
-                <table class="table-normal">
-                    <thead>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Description</th>
-                            <th>Price</th>
-                        </tr>
-                    </thead>
-                    <tfoot>
-                        <tr>
-                            <td colspan="2"></td>
-                            <td>100.0</td>
-                        </tr>
-                    </tfoot>
-                    <tbody>
-                        <tr>
-                            <td>Item One</td>
-                            <td>Antes turpis aliquet portitor</td>
-                            <td>29.99</td>
-                        </tr>
-                        <tr>
-                            <td>Item Two</td>
-                            <td>Antes turpis aliquet portitor</td>
-                            <td>29.99</td>
-                        </tr>
-                        <tr>
-                            <td>Item Three</td>
-                            <td>Antes turpis aliquet portitor</td>
-                            <td>29.99</td>
-                        </tr>
-                        <tr>
-                            <td>Item Four</td>
-                            <td>Antes turpis aliquet portitor</td>
-                            <td>29.99</td>
-                        </tr>
-                        <tr>
-                            <td>Item Five</td>
-                            <td>Antes turpis aliquet portitor</td>
-                            <td>29.99</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
             </section>
         </main>
 
         <footer>
-
+            <p>Copyright &copy; 2022</p>     
         </footer>
 
 </body>
