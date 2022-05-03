@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open sans' , Arial, Helvetica, sans-serif;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+/* FIM DO BODY */
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    /* background-color: orange; */
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-image: url(../fulls/overlay.png) , url(../fulls/bg.jpg);
+    background-position: left top;
+    background-size: auto , cover;
+    text-align: right;
+}
+header img{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+header h1{
+    color: rgb(205, 204, 204);
+    font-size: 19pt;
+    font-family:'Open sans' , Arial, Helvetica, sans-serif;
+    margin: 10px 10px;
+}
+header strong{
+    color: white;
+}
+header .main-header-link-texto{
+    color: gray;
+    text-decoration: unset;
+    border-bottom: 1px dotted white;
+    color: white;
+}
+header p{
+    font-size: 15pt;
+    color: white;
+    margin-top: 85px;
+}
+header .main-header-link-texto:hover{
+    border-bottom: unset;
+    color: white;
+}
+
+/* FIM DO HEADER */
+
+
+main{
+    width: 65%;
+    margin-left: 35%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+}
+
+/* FIM DO MAIN */
+
+.main-content-section{
+    font-size: 15pt;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.section-primeiro h2{
+    text-transform: uppercase;
+}
+.section-primeiro p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.button-generico{
+    border: gray 0.5px solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: unset;
+    font-size: 15pt;
+}
+.button-generico:hover{
+    border: .5px solid gray;
+    color: white;
+    background-color: black;
+}
+
+
+/* FIM DA PRIMEIRA SESSÃO */
+
+
+
+
+
+
