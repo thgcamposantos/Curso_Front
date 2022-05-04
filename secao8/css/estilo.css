@@ -4,6 +4,19 @@ body{
     margin: 0;
     padding: 0;
 }
+code{
+    background-color: rgb(209, 209, 209);
+    display: block;
+    padding: 15px;
+    width: 300px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+ul , ol{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
 
 /* FIM DO BODY */
 
@@ -60,14 +73,17 @@ main{
     padding: 40px 30px;
     box-sizing: border-box;
 }
-
-/* FIM DO MAIN */
-
 .main-content-section{
     font-size: 15pt;
     padding: 10px;
     margin-bottom: 25px;
 }
+.section-quarto-bloco{
+    padding: 30px 0px;
+}
+/* FIM DO MAIN */
+
+
 .section-primeiro h2{
     text-transform: uppercase;
 }
@@ -94,7 +110,93 @@ main{
 /* FIM DA PRIMEIRA SESSÃO */
 
 
+.section-segundo{
+
+}
+.fotos-section-segundo{
+    width: 47%;
+    margin: 10px 3% 15px 0px;
+    float: left;
+    padding: 5px 0px;
+}
+.fotos-section-segundo h4 , p{
+    margin: 5px 0px;
+}
+.title-cards{
+    font-size: 14pt;
+    text-align: center;
+}
+.text-cards{
+    font-size: 12pt;
+    text-align: center;
+}
+
+/* FIM DA SEGUNDA SESSÃO */
 
 
 
 
+
+
+
+
+
+
+/* ACTION */
+.button-generico-action{
+    background-color: rgb(51, 213, 202);
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-decoration: unset;
+    color: black;
+    transition: background-color 1s linear , color 0.5s linear;
+}
+.button-generico-action:hover{
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+.bloco-action p{
+    margin-bottom: 45px;
+}
+.button-generico-action-segundo{
+    background-color: black;
+    padding: 10px 30px;
+    border: solid 1px black;
+    border-radius: 20px;
+    color: white;
+    text-decoration: unset;
+    transition: background-color 1s linear;
+}
+.button-generico-action-segundo:hover{
+    background-color: gray;
+}
+
+/* FIM DO ACTION */
+
+/* TABLE */
+.table-normal{
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-normal thead th{
+    text-transform: uppercase;
+    background-color: rgb(179, 170, 170);
+    padding: 10px 5px;
+    border-bottom: black solid 1.5px;
+    color: black;
+    text-align: left;
+}
+.table-normal td{
+    padding: 10px 5px;
+}
+.table-normal tbody tr:nth-child(even){
+    background-color: rgb(230, 228, 228);
+}
+.table-normal tbody tr:last-child{
+    border-bottom: black solid 1px;
+}
+
+
+
+/* FIM DO TABLE */
