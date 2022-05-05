@@ -21,6 +21,9 @@ ul , ol{
 /* FIM DO BODY */
 
 
+
+/* HEADER */
+
 header{
     position: fixed;
     top: 0;
@@ -67,6 +70,8 @@ header .main-header-link-texto:hover{
 /* FIM DO HEADER */
 
 
+/* MAIN */
+
 main{
     width: 65%;
     margin-left: 35%;
@@ -84,6 +89,10 @@ main{
 /* FIM DO MAIN */
 
 
+
+
+/* PRIMEIRA SESSÃO */
+
 .section-primeiro h2{
     text-transform: uppercase;
 }
@@ -99,6 +108,7 @@ main{
     color: black;
     text-decoration: unset;
     font-size: 15pt;
+    cursor: pointer;
 }
 .button-generico:hover{
     border: .5px solid gray;
@@ -106,13 +116,14 @@ main{
     background-color: black;
 }
 
-
 /* FIM DA PRIMEIRA SESSÃO */
 
 
-.section-segundo{
 
-}
+
+
+/* SEGUNDA SESSÃO */
+
 .fotos-section-segundo{
     width: 47%;
     margin: 10px 3% 15px 0px;
@@ -135,13 +146,6 @@ main{
 
 
 
-
-
-
-
-
-
-
 /* ACTION */
 .button-generico-action{
     background-color: rgb(51, 213, 202);
@@ -150,6 +154,7 @@ main{
     text-decoration: unset;
     color: black;
     transition: background-color 1s linear , color 0.5s linear;
+    cursor: pointer;
 }
 .button-generico-action:hover{
     background-color: rgb(65, 64, 64);
@@ -166,12 +171,16 @@ main{
     color: white;
     text-decoration: unset;
     transition: background-color 1s linear;
+    cursor: pointer;
 }
 .button-generico-action-segundo:hover{
     background-color: gray;
 }
 
 /* FIM DO ACTION */
+
+
+
 
 /* TABLE */
 .table-normal{
@@ -196,7 +205,167 @@ main{
 .table-normal tbody tr:last-child{
     border-bottom: black solid 1px;
 }
-
-
-
 /* FIM DO TABLE */
+
+
+
+
+
+/* PRIMEIRO FORM */
+
+.content-section-form{
+    width: 100%;
+}
+.content-section-form form{
+    width: 50%;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.content-section-form form input{
+    padding: 10px 15px;
+    width: 46%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+.content-section-form form input[type="submit"]{
+    background-color: white;
+    color: gray;
+    border: solid gray 1.5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content-section-form form textarea{
+    margin: 10px 0px;
+    width: 92%;
+    resize: none;
+}
+.content-section-form address{
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+}
+.content-section-form .text-form:nth-child(1){
+    margin: 0px;
+}
+.content-section-form .text-form{
+    margin: 20px 0px;
+}
+.content-section-form address a{
+    text-decoration: unset;
+    color: black;
+}
+.content-section-form address a:hover{
+    text-decoration: underline;
+}
+
+/* FIM DO PRIMEIRO FORM */
+
+
+
+
+
+
+/* SEGUNDO FORMULARIO */
+
+.bloco-form input{
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    margin: 25px 0px;
+    background-color: rgb(228, 217, 217);
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+.bloco-form select{
+    width: 100%;
+    padding: 20px 15px;
+    background-color: rgb(228, 217, 217);
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.bloco-form label{
+    display: block;
+    margin: 0;
+}
+.bloco-form input[type="checkbox"] , .bloco-form input[type="radio"]{
+    display: inline-block;
+    width: 15px;
+    margin: 15px 10px 20px 0px;
+}
+.sexo{
+    display: inline-block;
+}
+.bloco-form textarea{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(228, 217, 217);
+    margin-top: 20px;
+    resize: none;
+}
+.bloco-form input[type="submit"]{
+    width: 25%;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: rgb(38, 67, 38);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.bloco-form input[type="reset"]{
+    width: 25%;
+    display: inline-block;
+    background-color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* FIM DO SEGUNDO FORMULARIO */
+
+
+/* BLOCOS DE IMAGENS */
+
+.bloco-image .galeria-img img{
+    width: 95.5%;
+}
+.bloco-image .galeria-img-thumb img{
+    width: 47%;
+    box-sizing: border-box;
+    margin: 10px 1% 10px 0px;
+}
+
+/* FIM DO BLOCO DE IMAGENS */
+
+
+
+/* RIGHT E LEFT */
+
+.bloco-left p{
+    text-align: justify;
+}
+#avatar-esquerdo{
+    float: left;
+    margin: 2px 10px 0px 0px;
+    border-radius: 10px;
+}
+#avatar-direito{
+    float: right;
+    border-radius: 10px;
+    margin: 2px 0px 0px 10px;
+}
+
+/* FIM DO  RIGHT E LEFT */ 
+
+
+/* FOOTER  */
+footer{
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+}
+
+
+
+/* FIM DO FOOTER */

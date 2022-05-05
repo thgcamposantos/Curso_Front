@@ -84,9 +84,7 @@
                         <form action="#" method="post">
                             <input type="text" placeholder="Nome" required>
                              <input type="email" placeholder="email" required>
-                                <textarea name="" id="" cols="30" rows="10" style="resize: unset;">
-
-                                </textarea>
+                                <textarea placeholder="Digite sua mensagem" name="texto da mensagem do formulario" id="msg" cols="30" rows="10"></textarea>
                                  <input type="submit" value="Send Message">
                         </form>
                         <address>
@@ -183,8 +181,8 @@
                 <div class="section-quarto-bloco bloco-form">
                     <h4 class="subtitle-section">form</h4>
                         <form action="#" method="post">
-                            <input type="text" placeholder="Name" name="nome-usuario">
-                                <input type="email" placeholder="email" name="email-usuario">
+                            <input type="text" placeholder="Name" name="nome-usuario" required>
+                                <input type="email" placeholder="email" name="email-usuario" required>
                                     <select name="categoria" id="">
                                         <option value="">Escolha</option>
                                         <option value="Facebook">Facebook</option>
@@ -196,15 +194,15 @@
                                     <label><input type="checkbox" name="facilidade" value="Nivel1">Nível 1</label>
                                     <label><input type="checkbox" name="facilidade"  value="Nivel2">Nível 2</label>
                                     <label><input type="checkbox" name="facilidade"  value="Nivel3">Nível 3</label>
+                                    
+                                    <hr>
 
-                                    <label><input type="radio" name="sexo" value="masc">Masculino</label>
-                                    <label><input type="radio" name="sexo" value="femi">feminino</label>
+                                    <label class="sexo"><input type="radio" name="sexo" value="masc">Masculino</label>
+                                    <label class="sexo"><input type="radio" name="sexo" value="femi">feminino</label>
 
-                                    <textarea placeholder="Digite sua mensagem" name="texto-msg" cols="30" rows="10" style="resize: unset;">
+                                    <textarea placeholder="Digite sua mensagem" name="texto-msg" cols="40" rows="10" style="resize: unset;"></textarea>
 
-                                    </textarea>
-
-                                    <input type="submit" value="Send Message">
+                                    <input type="submit" value="Send Menssage">
                                     <input type="reset" value="Reset">
                         </form>
                 </div>
