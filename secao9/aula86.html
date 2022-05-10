@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Aula 86</title>
+            <style>
+                #bloco-geral{
+                    border: solid 1px black;
+                    margin: auto;
+                    width: 700px;
+                    height: 600px;
+                    padding: 30px;
+                }
+                a[title]{
+                    color: black;
+                    text-decoration: unset;
+                    /* selecionando o a que contenha o title */
+                }
+                a:not([class="link"]){
+                    color: green;
+                    text-decoration: underline;
+                    /* selecionando o a que não seja da classe link */
+                }
+                a[title="rede-social"]{
+                    background-color: gray;
+                    /* selecionando o a que contenha o title="rede-social" */
+                }
+                section h2 + p{
+                    font-size: 22px;
+                    /* selecionado o irmão do h2 que seja p, mais próximo */
+                }
+            </style>
+  </head>
+  <body>
+        <div id="bloco-geral">
+            <section>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" title="rede-social" class="link">Link</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="link">Link</a></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" title="" class="link-diferente">Link</a></p>
+            </section>
+        </div>  
+  </body>
+  </html>

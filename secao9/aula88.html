@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 87</title>
+            <style>
+                article a::before{
+                    content: ' link: ';
+                    color: black;
+                    
+                }
+                article a{
+                    text-decoration: unset;
+                }
+                article p > b{
+                    text-decoration: underline;
+                    /* Não é selecionado pq B não é filho de P, e sim é neto de P */
+                    /* para ficar certo deveria ser:
+                        article p a > b ou p > a > b
+                            - seleciona todo b que seja filho de a que seja filho de
+                    */
+                }
+            </style>
+</head>
+<body>
+        <article>
+            <h3>Titulo</h3>
+            <p>Paragrafo<a href="#">apenas um link com <b>negrito</b></a></p>
+            <p>Paragrafo<a href="#">apenas um link com <b>negrito</b></a></p>
+            <p>Paragrafo<a href="#">apenas um link com <b>negrito</b></a></p>
+        </article>
+        <hr>
+        <article>
+            <h3>Titulo</h3>
+            <p>Paragrafo<a href="#" class="link">apenas um link com <b>negrito</b></a></p>
+            <p>Paragrafo<a href="#">apenas um link com <b>negrito</b></a></p>
+            <p>Paragrafo<a href="#">apenas um link com <b>negrito</b></a></p>
+        </article>
+</body>
+</html>
