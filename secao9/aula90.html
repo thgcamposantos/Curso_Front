@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 90</title>
+        <style>
+            input[type="checkbox"]{
+                width: 30px;
+                height: 30px;
+            }
+            input[type="checkbox"]:checked{
+                width: 10px;
+                height: 10px;
+                /* quando checado o width e o heigth vai de 30px para 10px*/
+            }
+            p{
+                color: red;
+            }
+            p:empty::after{
+                content: ' vazio';
+                color: black;
+            }
+            input[type="text"]{
+                border: solid 1px black;
+            }
+            input[type="text"]:focus{
+                border: solid 2px green;
+                padding: 5px;
+            }
+        </style>
+</head>
+<body>
+    <label for=""><input type="checkbox" value="sim">Aceito o contrato</label>
+        <input type="button" value="Clicar">
+            <p>paragrafo 1</p>
+            <p> </p>
+            <p></p>
+              <hr>
+              <input type="text">
+</body>
+</html>
