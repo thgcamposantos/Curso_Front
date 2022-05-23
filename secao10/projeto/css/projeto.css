@@ -1,0 +1,271 @@
+/* media screen and (max-width: 400px) */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* header */
+header{
+    text-align: center;
+}
+header img{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.header-nav{
+    background-color: rgb(25, 25, 87);
+    padding: 10px 0px;
+    box-shadow: 0px 6px 10px rgb(112, 111, 111);
+    margin: 20px 0px 25px;
+}
+.header-nav-bloco{
+    list-style: none;
+}
+.header-nav li{
+    margin: 10px 0px;
+    padding: 15px 0px;
+}
+.header-nav li:hover{
+    background-color: rgb(126, 126, 210);
+}
+.header-nav-link{
+    color: white;
+    text-decoration: unset;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.header-nav-link:hover{
+    color: black;
+}
+
+/* main  e section*/
+main{
+    padding: 3px 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+section{
+    padding: 40px 10px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* primeira-sessao */
+.primeira-sessao{
+    margin-bottom: 40px;
+}
+.tablet-pc{
+    display: none;
+}
+.title-primeira-sessao{
+    margin: 15px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.subtitle-primeira-sessao{
+    font-size: 17px;
+    margin: 10px 0px 45px;
+}
+.link-primeira-sessao{
+    text-decoration: unset;
+    color: white;
+    border: solid 1px black;
+    padding: 15px 55px;
+    background-color: rgb(23, 23, 88);
+    border-radius: 10px;
+}
+.link-primeira-sessao:hover{
+    color: black;
+    background-color: rgb(173, 173, 235);
+}
+/* fim da primeira-sessao */
+
+
+/* segunda-sessao */
+.segunda-sessao{
+    background-color: rgb(233, 233, 233);
+    padding: 0px 10px;
+}
+.segunda-sessao-bloco , .terceira-sessao-bloco{
+    padding: 25px 5px;
+    margin: 15px 0px;
+}
+.title-segunda-sessao{
+    margin: 5px 0px;
+    text-transform: uppercase;
+    color: rgb(23, 23, 88);
+}
+.text-segunda-sessao{
+    margin: 10px 0px;
+}
+.segunda-sessao img{
+    height: 50px;
+    width: 50px;
+    margin: 5px 0px;
+}
+/* fim da segunda-sessao */
+
+/* terceira-pessoa */
+.terceira-sessao{
+    text-align: right;
+}
+.terceira-sessao-bloco h3{
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.5px;
+    color:  rgb(23, 23, 88);
+}
+.terceira-sessao-bloco p{
+    margin: 30px 0px;
+    text-align: left;
+    line-height: 1.5;
+}
+.link-terceira-sessao{
+    text-decoration: unset;
+    border: solid 1px black;
+    padding: 10px 35px;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(98, 112, 137);
+}
+.link-terceira-sessao:hover{
+    background-color: rgb(52, 52, 52);
+    transition: all 0.7s linear;
+}
+/* fim da terceira-sessao */
+
+
+/* footer */
+footer{
+    text-align: center;
+    background-color:rgb(18, 18, 70);
+    padding: 0px 0px 20px 0px;
+}
+.bloco-rede-social{
+    background-color: rgb(8, 8, 34);
+    padding: 20px 0px;
+    margin: 0px 0px 30px 0px;
+}
+.bloco-rede-social ul{
+    list-style: none;
+}
+.bloco-rede-social li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.bloco-rede-social li a{
+    color: white;
+    text-decoration: unset;
+    padding: 5px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+}
+.bloco-rede-social li a:hover{
+    border: solid 1px white;
+    border-radius: 5px;
+}
+footer p:nth-child(2){
+    color: gray;
+    margin-bottom: 10px;
+}
+footer p:nth-child(3){
+    margin-top: 15px;
+    color: gray;
+    text-transform: uppercase;
+}
+/* fim do footer */
+
+@media screen and (min-width: 780px){
+    /* header */
+    header{
+        text-align: left;
+        position: relative;
+    }
+    header img{
+        margin: 5px 0px 10px 5px;
+    }
+    .header-nav{
+        margin: 0px;
+        display: inline-block;
+        background-color: transparent;
+        box-shadow: none;
+        position: absolute;
+        right: 15px;
+    }
+    .header-nav-bloco li{
+        display: inline-block;
+        margin: 5px 10px;
+    }
+    .header-nav-bloco li a{
+        color: black;
+        border: solid 1px transparent;
+        padding: 7px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .header-nav-bloco li:hover{
+        background-color: transparent;
+    }
+    .header-nav-bloco li a:hover{
+        border: 1px solid black;
+        background-color: rgb(25, 25, 87);;
+        color: white;
+    }
+    /* fim do header */
+
+    /* main */
+    main{
+        padding: 0px;
+        margin: 0px;
+    }
+    /* fim do main */
+
+    /* primeira-sessao */
+    .primeira-sessao{
+        background-color: rgb(25, 25, 87);
+        margin: 0px;
+        color: white;
+    }
+    .title-primeira-sessao{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .tablet-pc{
+        display: block;
+        height: 50px;
+        width: 40px;
+        margin: auto;
+    }
+    .link-primeira-sessao{
+        border: solid 1px white;
+        background-color: rgb(54, 54, 145);
+        letter-spacing: 1.2px;
+    }
+    /* fim da primeira sessao */
+
+    /* segunda-sessao */
+    .segunda-sessao , .segunda-sessao-bloco{
+        padding: 0px;
+        margin: 0px;
+    }
+    .segunda-sessao{
+        padding: 20px 10px;
+    }
+    .segunda-sessao-bloco{
+        padding: 30px 10px;
+        margin: 10px 5px;
+    }
+    .text-segunda-sessao{
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .bloco-tablet{
+        display: flex;
+    }
+    /* fim da segunda-sessao */
+}
+
+/* @media screen and (min-width: 1000px){
+    /*acima de 1000px
+}  */
