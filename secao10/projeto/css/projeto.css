@@ -135,7 +135,6 @@ section{
 }
 /* fim da terceira-sessao */
 
-
 /* footer */
 footer{
     text-align: center;
@@ -266,6 +265,36 @@ footer p:nth-child(3){
     /* fim da segunda-sessao */
 }
 
-/* @media screen and (min-width: 1000px){
-    /*acima de 1000px
-}  */
+@media screen and (min-width: 1100px){
+    /*acima de 1000px */
+    header img{
+        margin: 5px 0px 0px 35px;
+    }
+    .primeira-sessao{
+        background: #521a66 url(../images/bg_topo_1600x1374.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top left;
+    }
+    .tablet-pc{
+        margin-top: 250px;
+    }
+    .tablet-pc{
+        height: 60px;
+        width: 60px;
+    }
+    .title-primeira-sessao{
+        margin-top: 85px;
+    }
+    .subtitle-primeira-sessao{
+        margin: 60px 0px;
+    }
+    .bloco-computador{
+        display: flex;
+    }
+    .terceira-sessao{
+        text-align: left;
+        margin: 0;
+    }
+}
