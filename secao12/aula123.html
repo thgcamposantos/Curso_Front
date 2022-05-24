@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 123</title>
+        <style>
+            img{
+                width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <h1>Imagens</h1>
+
+    <picture>
+        <source media="(min-width: 600px)" srcset="rwd-images/media.webp 600w , rwd-images/grande.webp 900w" type="image/webp" sizes="33vw">
+        <source srcset="rwd-images/pequena.webp 400w" type="image/webp" sizes="95vw">
+        <img src="rwd-images/pequena.webp" alt="foto de codificação">
+    </picture>
+
+</body>
+</html>
