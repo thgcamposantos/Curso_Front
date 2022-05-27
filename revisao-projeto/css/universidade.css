@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+header{
+    margin: 5px 0px 0px;
+}
+header nav{
+    background-color: red;
+    margin: 5px 0px 0px 0px;
+}
+header ul{
+    list-style: none;
+}
+header nav ul > li{
+    padding: 15px;
+}
+header nav ul li:hover{
+    background-color: rgb(203, 103, 103);
+}
+header nav ul li > a{
+    color: black;
+    text-decoration: unset;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font: normal 20px;
+}
+header nav ul li a:hover{
+    color: white;
+}
+
+
+
+.banner{
+    background-image: url(../img/entrada.jpeg);
+    height: 350px;
+    background-position: center;
+}
+
+
+main{
+    /* max-width: 900px; */
+    margin: auto;
+}
+section{
+    padding: 50px 0px;
+}
+
+/* primeira-sessao */
+.quem-somos{
+    padding: 5px;
+    margin: 20px 0px;   
+}
+.title-section{
+    margin: 0px 0px 20px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font: 900 22px arial;
+}
+.text-section{
+    font: normal 18px;
+    line-height: 2.2;
+    text-align:  center;
+    padding: 5px;
+}
+
+/* segunda-sessao */
+.section-bloco-unico{
+    padding: 15px;
+    margin: 20px 0px 20px;
+}
+.section-bloco-unico img{
+    margin: 5px 0px 10px;
+}
+.section-bloco-title{
+    margin: 5px 0px 10px;
+    font: 600 arial 19px;
+}
+.section-bloco-text{
+    margin-bottom: 20px;
+    line-height: 2.5;
+}
+.section-bloco-unico a{
+    border: solid 1px black;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-decoration: unset;
+    background-color: rgb(250, 132, 132);
+    color: black;
+}
+.section-bloco-unico a:hover{
+    background-color: black;
+    color: white;
+}
+
+.banner-dois{
+    background-image: url(../img/pexels-photo-2881370.jpeg);
+    height: 700px;
+    /* margin: 0px -50px; */
+    background-position: center;
+}
+
+
+.bloco-video video{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+form{
+    border: solid 5px gray;
+    padding: 20px;
+    width: 80%;
+    margin: 30px auto;
+    text-align: left;
+    border-radius: 10px;
+}
+form input{
+    margin: 15px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+form input[type="file"]{
+    padding: 0px;
+}
+form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+form input[type="submit"]{
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+footer{
+    background-color: rgb(156, 0, 0);
+    padding: 0px 0px 20px;
+}
+footer p{
+    color: white;
+    text-transform: uppercase;
+}
+.rede-social{
+    padding: 20px 0px;
+    background-color: rgb(65, 1, 1);
+    margin-bottom: 20px;
+}
+.rede-social ul{
+    list-style: none;
+}
+.rede-social ul li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+.link-rede-social{
+    color: white;
+    text-decoration: unset;
+    border: solid 1px transparent;
+    padding: 5px;
+}
+.link-rede-social:hover{
+    border: solid 1px white;
+    padding: 5px;
+}
+
+@media screen and (min-width: 950px){
+    header{
+        text-align: left;
+        position: relative;
+    }
+    header img{
+        margin: 5px 0px 10px 15px;
+    }
+    header nav{
+        background: white;
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    header ul{
+        padding: 0px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    header nav ul li:hover{
+        background-color: transparent;
+    }
+    header nav ul li a{
+        padding: 10px;
+        border: solid 1px transparent;
+    }
+    header nav ul li a:hover{
+        color: black;
+        border: solid 1px black;
+        padding: 10px;
+    }
+    header nav ul li{
+        display: inline-block;
+    }
+    .banner{
+        height: 700px;
+        margin-bottom: 30px;
+    }
+    .section{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .section-bloco-geral{
+        padding: 40px 0px;
+        text-align: center;
+    }
+    .section-bloco-par{
+        margin: auto;
+        margin-bottom: 40px;
+        display: flex;
+    }
+    .section-bloco-unico{
+        width: 40%;
+        margin: auto;
+    }
+    .section-bloco-unico img{
+        height: 60px;
+    }
+    .bloco-video video{
+        width: 100%;
+    }
+    .banner-dois{
+        height: 800px;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
