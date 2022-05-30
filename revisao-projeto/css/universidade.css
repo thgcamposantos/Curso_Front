@@ -41,7 +41,6 @@ header nav ul li a:hover{
 
 
 main{
-    /* max-width: 900px; */
     margin: auto;
 }
 section{
@@ -98,7 +97,6 @@ section{
 .banner-dois{
     background-image: url(../img/pexels-photo-2881370.jpeg);
     height: 700px;
-    /* margin: 0px -50px; */
     background-position: center;
 }
 
@@ -201,7 +199,7 @@ footer p{
     }
     header nav ul li a:hover{
         color: black;
-        border: solid 1px black;
+        border-bottom: solid 1px black;
         padding: 10px;
     }
     header nav ul li{
@@ -210,7 +208,12 @@ footer p{
     .banner{
         height: 700px;
         margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+
+
     .section{
         max-width: 1200px;
         margin: auto;
