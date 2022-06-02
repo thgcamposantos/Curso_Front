@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 143</title>
+        <style> 
+            .pai{
+                background-color: gray;
+                display: grid;
+                grid-template-rows: 100px 100px 100px 100px;
+            }
+            .filhos{
+                margin: 10px;
+                background-color: orange;
+                padding: 20px;
+            }
+            .header{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .nav{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+            .aside{
+                grid-row-start: 2;
+                grid-row-end: 5;
+                grid-column-start: 2;
+                grid-column-end: 3;
+            }
+            .main{
+                grid-row-start: 3;
+                grid-row-end: 5;
+                grid-column-start: 1;
+            }
+            .footer{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 5;
+                grid-row-end: 6;
+            }
+            
+        </style>
+</head>
+<body>
+    <h1>Grid Layout</h1>
+        <div class="pai">
+            <div class="filhos header">header</div>
+            <div class="filhos nav">nav</div>
+            <div class="filhos aside">aside</div>
+            <div class="filhos main">main</div>
+            <div class="filhos footer">footer</div>
+        </div>
+</body>
+</html>
