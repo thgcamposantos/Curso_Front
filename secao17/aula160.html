@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 160</title>
+    <style>
+        @keyframes slide{
+            0%{
+                transform: translateY(0);
+            }
+            25%{
+                transform: translateY(-50vh);
+            }
+            50%{
+                transform: translateY(-100vh);
+            }
+            75%{
+                transform: translateY(-150vh);
+            }
+
+        }
+        body{
+            font-family: sans-serif;
+            background-color: #1a1818;
+            margin: 0;
+            padding: 0;
+        }
+        #externo{
+            width: 80vw;
+            height: 50vh;
+            border: 10px solid white;
+            box-shadow: -5px -5px 10px gray , 5px 5px 10px gray;
+            margin-left: 10vh;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .interno{
+            width: 100%;
+            animation: slide 15s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        .interno > img{
+            width: 100%;
+            height: 50vh;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h2>Animation</h2>
+        <div id="externo">
+            <div class="interno">
+                <img src="img/slide1.jpg" alt="">
+                <img src="img/slide2.jpg" alt="">
+                <img src="img/slide3.jpg" alt="">
+                <img src="img/slide4.jpg" alt="">
+            </div>
+        </div>
+
+</body>
+</html>
