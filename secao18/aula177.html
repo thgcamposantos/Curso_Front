@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 177</title>
+</head>
+<body>
+<script>
+    let jog1 = Number(prompt("Digite um número: "));
+    let jog2 = Number(prompt("Digite um número: "));
+        if(jog1 == jog2){
+            alert("O número digitado pelo Jogador 1 foi: " + jog1 + " e o número digitado pelo jogador 2 foi: " + jog2 + " e então foi EMPATE")
+        }else{
+            alert("Sortear um número");
+                let sorteio = parseInt(Math.random() * 2);
+                alert("Número sorteado foi: " + sorteio);
+                    if(sorteio == 0){
+                        if(jog1 < jog2){
+                            alert("Jogador número 1 ganhou por ter escolhido o menor. Jog1: " + jog1 + " e jog2: " + jog2);
+                        }else{
+                            alert("Jogador número 2 ganhou por ter escolhido o menor. Jog1: " + jog1 + " e jog2: " + jog2);
+                        }
+                    }else if(sorteio != 0){
+                        if(jog1 > jog2){
+                            alert("Jogador número 1 ganhou por ter escolhido o maior. Jog1: " + jog1 + " e jog2: " + jog2);
+                        }else{
+                            alert("Jogador número 2 ganhou por ter escolhido o maior. Jog1: " + jog1 + " e jog2: " + jog2);
+                    }
+        }
+    }
+</script>
+</body>
+</html>

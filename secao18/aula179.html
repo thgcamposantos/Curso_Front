@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 179</title>
+</head>
+<body>
+<script>
+    let n1 = Number(prompt("Digite uma nota: "));
+    let n2 = Number(prompt("Digite uma nota: "));
+        if((n1 == 0 || n2 == 0)){
+            alert("Reprovado automaticamente");
+        }else{
+            let media = ((n1 + n2) / 2);
+            alert("A média é: " + media)
+                if(media >= 5){
+                    alert("A média do aluno é: " + media + " e está APROVADO")
+                }else if(media < 5){
+                    alert("A média do aluno é: " + media + " e está REPROVADO")
+                }
+        }
+        
+</script>
+</body>
+</html>
