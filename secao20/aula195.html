@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 195</title>
+</head>
+<body>
+    <button onclick="mais()">+</button>
+    <button onclick="menos()">-</button>
+    <button onclick="multi()">*</button>
+    <button onclick="divi()">/</button>
+        <div id="msg"></div>
+
+
+<script>
+    var numero_inicial = Number(prompt("Digite um número: "));
+        var output = window.document.getElementById('msg');
+        output.innerHTML = numero_inicial;
+
+    function mais(){
+        var soma_numero = Number(prompt("Digite um número: "));
+        var soma = Number(numero_inicial + soma_numero);
+        output.innerHTML = soma;
+
+        numero_inicial = soma;
+    }
+
+    function menos(){
+        var dimi_numero = Number(prompt("Digite um número: "));
+        var subtracao = Number(numero_inicial - dimi_numero);
+        output.innerHTML = subtracao;
+
+        numero_inicial = subtracao;
+    }
+
+    function multi(){
+        var multi_numero = Number(prompt("Digite um número: "));
+        var multiplicacao = Number(numero_inicial * multi_numero);
+        output.innerHTML = multiplicacao;
+
+        numero_inicial = multiplicacao
+    }
+
+    function divi(){
+        var divi_numero = Number(prompt("Digite um número: "));
+        var divisao = Number(numero_inicial / divi_numero);
+        output.innerHTML = divisao;
+
+        numero_inicial = divisao;
+    }
+
+</script>
+</body>
+</html>
