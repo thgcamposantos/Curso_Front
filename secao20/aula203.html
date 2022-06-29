@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 203</title>
+</head>
+<body>
+    <div>
+        <button onclick="resp()">Calcular area</button>
+    </div>
+
+<script>
+    function cal(a , l){
+        var area = (l * a);
+        return area;
+    }
+
+    function resp(){
+        var altura = Number(prompt("Valor da altura: "));
+        var largura = Number(prompt("Valor da Largura: "));
+    
+        var resposta_final = cal(altura , largura);
+        alert (resposta_final)
+    }
+
+</script>
+</body>
+</html>

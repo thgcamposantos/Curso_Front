@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 201</title>
+</head>
+<body>
+    <div>
+        <button onclick="alert_()">Alert</button>
+        <button onclick="output_()">Output</button>
+        <div id="msg"></div>
+    </div>
+
+<script>
+    var num1 = Number(prompt("Digite um número: "));
+    var num2 = Number(prompt("Digite um número: "));
+
+    function soma(n1 , n2){
+        var soma = (n1 + n2)
+        return soma;    
+    }
+
+    function alert_(){
+        var resul = soma(num1 , num2);
+        alert("O resultado é: " + Number(resul));
+    }
+    function output_(){
+        var msg = document.getElementById('msg');
+        var resul = soma(num1 , num2)
+            msg.innerHTML = resul;
+    }
+</script>
+</body>
+</html>

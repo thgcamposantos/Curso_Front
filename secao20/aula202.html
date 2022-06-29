@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 202</title>
+</head>
+<body>
+    <h1>Regra de três</h1>
+
+    <div>
+        <button onclick="inv(num1 , num2 , num3)">Inversamente Proporcional</button>
+        <button onclick="dire(num1 , num2 , num3)">Diretamente Proporcional</button>
+    </div>
+
+<script>
+    var num1 = Number(prompt("Digite um número: "));
+    var num2 = Number(prompt("Digite um número: "));
+    var num3 = Number(prompt("Digite um número: "));
+    
+    function dire(n1 , n2 , n3){
+        var valor_final = ((n3 * n2) / n1);
+        return valor_final;
+    }
+    function inv(n1 , n2 , n3){
+        var valor_final = Number(((n1 * n2) / n3));
+        alert(valor_final);
+    }
+
+</script>
+</body>
+</html>
